@@ -1,0 +1,51 @@
+{
+  "name": "api-companion",
+  "displayName": "API Companion",
+  "description": "View API details of your code in a sidebar",
+  "publisher": "Monarch",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vishnusai-karumuri/api-companion"
+  },
+  "bugs": {
+    "url": "https://github.com/vishnusai-karumuri/api-companion/issues"
+  },
+  "homepage": "https://github.com/vishnusai-karumuri/api-companion#readme",
+  "baseContentUrl": "https://raw.githubusercontent.com/vishnusai-karumuri/api-companion/main/api-companion",
+  "baseImagesUrl": "https://raw.githubusercontent.com/vishnusai-karumuri/api-companion/main/api-companion",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "api-companion-sidebar",
+          "title": "API Companion",
+          "icon": "resources/api-icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "api-companion-sidebar": [
+        {
+          "id": "apiExplorer",
+          "name": "API Explorer"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "api-companion.refreshApiView",
+        "title": "Refresh API View",
+        "icon": "$(refresh)"
+      }
+    ]
+  }
+} 
