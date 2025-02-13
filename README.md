@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![API Companion](resources/api-icon.svg)
+![API Companion](resources/api-icon.png)
 
 A Visual Studio Code extension that helps you visualize and navigate API endpoints in your codebase.
 

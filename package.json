@@ -4,6 +4,11 @@
   "description": "View API details of your code in a sidebar",
   "publisher": "Monarch",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vishnusai-karumuri/api-companion"
+  },
+  "icon": "resources/api-icon.png",
   "engines": {
     "vscode": "^1.97.0"
   },
@@ -18,7 +23,7 @@
         {
           "id": "api-companion-sidebar",
           "title": "API Companion",
-          "icon": "resources/api-icon.svg"
+          "icon": "resources/api-icon.png"
         }
       ]
     },
